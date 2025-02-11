@@ -1,6 +1,8 @@
 # Deployment Codealong Part 3
 
-For full instructions please see the codealong in Synapse!
+## Git Repo
+
+20250211-lab-part2
 
 ## Setup
 
