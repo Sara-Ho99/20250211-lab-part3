@@ -5,13 +5,13 @@ import warehouseRoutes from "./routes/warehouseRoute.js";
 import inventoryRoutes from "./routes/inventoryRoute.js";
 
 const app = express();
-const PORT = process.env.PORT || 5050;
+const PORT = process.env.PORT || 5051;
 
 app.use(cors()); // public API
 app.use(express.json());
 
 app.get("/", (_req, res) => {
-  res.send("Welcome to my API");
+  res.send("Welcome to Sara's API - Warehouse Management System");
 });
 
 app.use("/warehouses", warehouseRoutes);
